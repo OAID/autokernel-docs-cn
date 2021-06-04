@@ -5,16 +5,16 @@ AutoKernel提供了docker镜像，镜像内安装了Halide和Tengine, 方便开�
 ## Docker Image: 
 - cpu
     ```
-    docker pull openaialb/autokernel
+    docker pull openailab/autokernel
     ```
 - cuda: 
     ```
-    nvidia-docker pull openaialb/autokernel:cuda
+    nvidia-docker pull openailab/autokernel:cuda
     ```
     [NOTE]: 使用cuda镜像需要用nvidia-docker, 安装指南见 [nvidia-docker install-guide](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html#installing-on-ubuntu-and-debian).
 - opencl:
     ```
-    docker pull openaialb/autokernel:opencl
+    docker pull openailab/autokernel:opencl
     ```
 ## Dockerfile
 具体的Dockerfile见
