@@ -14,9 +14,9 @@ AutoSearch是一个对Halide算子进行策略搜索和自动优化的模块，�
 ```shell
  export HALIDE_HOME=<path>/<to>/Halide
  cd <path>/<to>/AutoSearch
- mkdir build & cd build
+ mkdir build && cd build
  cmake ..
- make -16
+ make -j `nproc`
 ```
 
 ## 快速使用
