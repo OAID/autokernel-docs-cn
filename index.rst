@@ -49,8 +49,8 @@ Welcome to AutoKernel Docs!
   blog/ai_compiler_overview
   
 .. toctree::
-:maxdepth: 1
-:caption: 开发文档
-:name: dev-doc
+  :maxdepth: 1
+  :caption: 开发文档
+  :name: dev-doc
 
-dev-doc/datatransform
+  dev-doc/datatransform
