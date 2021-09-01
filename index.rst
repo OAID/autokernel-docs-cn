@@ -48,9 +48,9 @@ Welcome to AutoKernel Docs!
   blog/autokernel_optimize_gemm_over_200_times_faster
   blog/ai_compiler_overview
   
-  .. toctree::
-  :maxdepth: 1
-  :caption: 开发文档
-  :name: dev-doc
+.. toctree::
+:maxdepth: 1
+:caption: 开发文档
+:name: dev-doc
 
-  dev-doc/datatransform
+dev-doc/datatransform
