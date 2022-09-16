@@ -91,7 +91,7 @@ AutoSearch是一个对Halide算子进行策略搜索和自动优化的模块，�
 3. ARM CPU
     ```shell
     cd toolkit
-    python3 tools.py --gen ../generator/batch_matmul.cpp --target arm-64-linux-opencl -autotune -compute_time --num_iterators 10
+    python3 tools.py --gen ../generator/batch_matmul.cpp --target arm-64-linux -autotune -compute_time --num_iterators 10
     ```
     在 RK3399上测试时间为：
     ```
@@ -102,7 +102,7 @@ AutoSearch是一个对Halide算子进行策略搜索和自动优化的模块，�
 4. ARM Mali GPU
     ```shell
     cd toolkit
-    python3 tools.py --gen ../generator/batch_matmul.cpp --target arm-64-linux -autotune -compute_time  --num_iterators 20
+    python3 tools.py --gen ../generator/batch_matmul.cpp --target arm-64-linux-opencl -autotune -compute_time  --num_iterators 20
     ```
     在RK3399 Mali-T860上测试时间为：
     ```
